@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+.accordionWrap {
+  position: relative;
+}
+
+.accordionTrigger {
+  cursor: pointer;
+
+  /* #nav-toggle open */
+  &.is-active {
+      background-color: #Faa;
+  }
+}
+.accordionItem {
+  overflow: hidden;
+  height: 0;
+  background-color: #0ff;
+}
